@@ -4,18 +4,17 @@ body {
     align-items: center;
     height: 100vh;
     background-color: #F8C8DC;
-    background-image: url("./img/geeks_logo.png");
+    background-image: url("./img/background_valentin.jfif");
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-/* Position the "No" button absolutely within body */
 #noButton {
     position: absolute;
     margin-left: 150px;
     transition: 0.5s;
-    /* Smooth movement */
 }
+
 .text {
     background: white;
     width: 900px;
@@ -38,7 +37,6 @@ body {
     font-weight: bold;
     color: black;
     text-align: center;
-    /*padding-top: 30px;*/
     padding-bottom: 5px;
 }
 
@@ -51,7 +49,6 @@ body {
     align-items: center;
     margin-top: 20px;
     margin-left: 20px;
-    /* optional: adds some space between the buttons */
 }
 
 .btn {
@@ -68,7 +65,6 @@ body {
     border: none;
     border-radius: 12px;
     transition: background-color 0.3s ease;
-
 }
 
 .btn:hover {
